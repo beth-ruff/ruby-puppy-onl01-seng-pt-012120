@@ -26,4 +26,4 @@ end
 
 pluto = Dog.new("Pluto")
 
-self.all
+Dog.all
