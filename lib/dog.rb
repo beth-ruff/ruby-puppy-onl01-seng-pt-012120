@@ -24,6 +24,10 @@ class Dog
     end
   end
   
+  def self.save
+    @@all << Dog.new 
+  end
+  
 end
 
 pluto = Dog.new("Pluto")
