@@ -8,6 +8,7 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self 
+    save
   end
   
   def self.all 
@@ -28,7 +29,6 @@ class Dog
     @@all << self 
   end
   
-  def 
 end
 
 pluto = Dog.new("Pluto")
