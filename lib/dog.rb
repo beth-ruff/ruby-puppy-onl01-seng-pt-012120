@@ -19,11 +19,9 @@ class Dog
   end 
   
   def self.print_all
-    
+    @@all
   end
   
 end
 
 pluto = Dog.new("Pluto")
-
-Dog.all
